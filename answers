@@ -1,1 +1,49 @@
+## Objectives
+1. Average number of goals per game between 1900 and 2000.
+3.0824074074074073
 
+2. Number of shootouts wins by country in alphabetical order.
+	country	shootout_wins
+0	Abkhazia	2
+1	Algeria	7
+2	Angola	7
+3	Antigua and Barbuda	2
+4	Argentina	14
+...	...	...
+158	Zambia	13
+159	Zanzibar	2
+160	Zimbabwe	7
+161	Åland	1
+162	Åland Islands	2
+
+3. Create a reliable key that allows the joining together of goal scorers, results, and shootouts.
+
+4. Create a query that identifies which teams have won a penalty shootout after a 1-1 draw.
+         date    home_team         away_team       winner
+0  1967-08-22        India            Taiwan       Taiwan
+1  1971-11-14  South Korea  Vietnam Republic  South Korea
+2  1972-05-17     Thailand       South Korea  South Korea
+3  1973-06-14       Guinea              Mali       Guinea
+4  1973-06-14    Mauritius          Tanzania    Mauritius
+
+5. Create a query that identifies the top goal scorer by tournament, and what percentage that equates to for all goals scored in the tournament.
+	tournament	scorer	goals_scored	percentage_of_goals
+0	AFC Asian Cup	Ali Daei	14	1.415571
+1	African Cup of Nations	Samuel Eto'o	18	1.018676
+2	Baltic Cup	Ēriks Pētersons	9	3.930131
+3	British Home Championship	Geoff Hurst	4	12.121212
+4	CONMEBOL–UEFA Cup of Champions	Claudio Caniggia	1	14.285714
+5	Confederations Cup	Cuauhtémoc Blanco	9	2.127660
+6	Copa América	Norberto Doroteo Méndez	17	0.636466
+7	FIFA World Cup	Miroslav Klose	16	0.588235
+8	FIFA World Cup qualification	Carlos Ruiz	39	0.171519
+9	Gold Cup	Landon Donovan	18	1.640839
+10	NAFC Championship	Luis de la Fuente	3	30.000000
+11	Oceania Nations Cup	Damian Mori	14	2.621723
+12	UEFA Euro	Cristiano Ronaldo	14	1.688782
+13	UEFA Euro qualification	Cristiano Ronaldo	41	0.515205
+14	UEFA Nations League	Aleksandar Mitrović	14	1.182432
+
+Additional (If you have time)
+1. Create and additional column that flags records with data quality issues
+2. Resolve the identified quality issues
