@@ -169,7 +169,7 @@ Central African Republic              1
            Åland Islands              2
 
 3. key that allows the joining together of goal scorers, results, and shootouts:
-date-home_team-away_team
+		date-home_team-away_team
 
 4. Teams that have won a penalty shootout after a 1-1 draw:
             tournament    home_team           away_team       winner
